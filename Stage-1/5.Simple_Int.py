@@ -8,3 +8,4 @@ R = float(input("Annual rate of interest : "))
 T = float(input("Time duration : "))
 cal = (P*R*T)/100
 print(f"Your Simple interest I = {cal} /-")
+# O(1)

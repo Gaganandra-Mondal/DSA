@@ -7,3 +7,4 @@ temp = num1
 num1 = num2
 num2 = temp
 print(f"After Swaping , 1st number is : {num1} and 2nd number is {num2}")
+#O(1)

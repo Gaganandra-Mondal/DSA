@@ -11,3 +11,4 @@ match Choice:
         print(f"Your Temp is : {Calculation_2} F")
     case _:
         print("Enter Valid Option")
+# O(1)

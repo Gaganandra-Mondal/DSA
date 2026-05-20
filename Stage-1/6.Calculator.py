@@ -13,3 +13,5 @@ match choice:
         print(num1/num2)
     case _:
         print("Choice valid option")
+
+# O(1)

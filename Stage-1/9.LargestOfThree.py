@@ -8,3 +8,5 @@ elif(num2>num1>num3):
     print(f"{num2} is the largest number")
 else:
     print(f"{num3} is the largest number")
+
+# O(1)
