@@ -1,10 +1,11 @@
 # Prime Number Check
+import math
 num = int(input("Enter Your Number: "))
 
 def Solution():
     if(num<=1):
         return False
-    for i in range(2,num):
+    for i in range(2,math.ceil(num**0.5)):
         if(num%i==0):
             return False
     return True
