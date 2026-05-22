@@ -1,6 +1,6 @@
 # Count vowels in String
 string = input("Enter Your Word: ").lower()
-# method 1 
+# method 1
 # strList = list(string)
 # Vow = []
 # for i in strList:
@@ -18,4 +18,14 @@ string = input("Enter Your Word: ").lower()
 
 
 # method 3
-print(sum([string.count("a"),string.count("e"),string.count("i"),string.count("o"),string.count("u")]))
+print(
+    sum(
+        [
+            string.count("a"),
+            string.count("e"),
+            string.count("i"),
+            string.count("o"),
+            string.count("u"),
+        ]
+    )
+)
